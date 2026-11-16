@@ -1,0 +1,48 @@
+{
+  "site": {
+    "name": "TIIS Consortium",
+    "fullName": "Transparent Intelligent Infrastructures and Systems (TIIS) Consortium",
+    "tagline": "Connecting Institutions. Advancing Intelligent Systems. Shaping the Future.",
+    "email": "info@tiis-consortium.org",
+    "url": "https://tiis-consortium.org/",
+    "status": "Research Consortium · Founded 2026"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About TIIS"
+    },
+    {
+      "id": "research",
+      "label": "Research"
+    },
+    {
+      "id": "how-it-works",
+      "label": "How It Works"
+    },
+    {
+      "id": "governance",
+      "label": "Governance"
+    },
+    {
+      "id": "network",
+      "label": "Network"
+    },
+    {
+      "id": "news",
+      "label": "Events & Roadmap"
+    },
+    {
+      "id": "membership",
+      "label": "Membership"
+    },
+    {
+      "id": "join",
+      "label": "Join TIIS"
+    }
+  ]
+}
