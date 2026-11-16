@@ -519,3 +519,29 @@ body.tiis-search-open{overflow:hidden}
  .tiis-home-values article,.tiis-home-values article:first-child{padding:1rem 0;border-right:0;border-bottom:1px solid #dce5ec}
  .tiis-home-values article:last-child{border-bottom:0}
 }
+
+
+/* Horizontal TIIS roadmap: scrollable timeline with clear milestone progression. */
+.tiis-home-roadmap{margin:0 28px 3rem;padding:2.2rem 0 1.4rem;border-top:1px solid #dce5ec}
+.tiis-roadmap-heading h2{margin-top:.45rem;color:#183b5d;font:800 clamp(1.55rem,2.5vw,2.1rem)/1.2 Manrope,sans-serif;letter-spacing:-.035em}
+.tiis-roadmap-heading>p:last-child{margin-top:.5rem;color:#60758a;font-size:.82rem;line-height:1.6}
+.tiis-roadmap-scroll{margin-top:1.5rem;overflow-x:auto;overscroll-behavior-x:contain;padding:0 0 1rem;scrollbar-width:thin;scrollbar-color:#9bb4c8 #edf2f6}
+.tiis-roadmap-scroll:focus-visible{outline:3px solid #1D4F87;outline-offset:3px}
+.tiis-roadmap-track{position:relative;display:grid;grid-template-columns:repeat(5,minmax(190px,1fr));gap:1rem;min-width:1020px;padding:0 .25rem}
+.tiis-roadmap-track:before{content:"";position:absolute;top:35px;left:calc(10%);right:calc(10%);height:2px;background:linear-gradient(90deg,#9bb4c8,#258b89,#174c7b);z-index:0}
+.tiis-roadmap-item{position:relative;z-index:1;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.tiis-roadmap-year{color:#174c7b;font:800 1.05rem/1 Manrope,sans-serif;letter-spacing:.02em}
+.tiis-roadmap-dot{display:block;width:14px;height:14px;margin:14px 0 1rem;border:3px solid #fff;border-radius:50%;background:#8ca9bf;box-shadow:0 0 0 2px #8ca9bf}
+.tiis-roadmap-active .tiis-roadmap-dot{background:#258b89;box-shadow:0 0 0 3px #258b89,0 0 0 7px #dff2f0}
+.tiis-roadmap-goal .tiis-roadmap-dot{background:#174c7b;box-shadow:0 0 0 3px #174c7b,0 0 0 7px #e3edf6}
+.tiis-roadmap-card{width:100%;min-height:172px;padding:1rem;border:1px solid #dce5ec;background:#fff;box-shadow:0 5px 18px rgba(16,47,80,.045);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.tiis-roadmap-item:hover .tiis-roadmap-card{transform:translateY(-3px);border-color:#9bb8c9;box-shadow:0 10px 24px rgba(16,47,80,.08)}
+.tiis-roadmap-phase{display:inline-block;color:#16827e;font-size:.62rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.tiis-roadmap-card h3{margin-top:.55rem;color:#1b3e60;font:800 .92rem/1.35 Manrope,sans-serif;letter-spacing:-.02em}
+.tiis-roadmap-card p{margin-top:.55rem;color:#60758a;font-size:.72rem;line-height:1.65}
+.tiis-roadmap-origin .tiis-roadmap-dot{background:#9bb4c8}
+.tiis-roadmap-hint{display:flex;align-items:center;justify-content:center;gap:.55rem;margin-top:.35rem;color:#718397;font-size:.68rem}
+.tiis-roadmap-hint span{color:#16827e;font-size:.9rem}
+@media(max-width:850px){.tiis-home-roadmap{margin-inline:16px}}
+@media(max-width:560px){.tiis-home-roadmap{margin-inline:12px;padding-top:1.8rem}.tiis-roadmap-track{min-width:960px;grid-template-columns:repeat(5,minmax(180px,1fr))}.tiis-roadmap-card{min-height:160px}.tiis-roadmap-hint{font-size:.62rem}}
+@media(prefers-reduced-motion:reduce){.tiis-roadmap-card{transition:none}}
