@@ -229,5 +229,27 @@
     "lng": 106.916,
     "website": "https://must.edu.mn/en/",
     "description": "A major public technical university in Ulaanbaatar, with schools and research activity in engineering, information and communication technology, applied sciences, management and related fields."
+  },
+  {
+    "id": "phuket-rajabhat",
+    "name": "Phuket Rajabhat University",
+    "shortName": "PKRU",
+    "city": "Phuket",
+    "country": "Thailand",
+    "lat": 7.9127,
+    "lng": 98.3859,
+    "website": "https://www.pkru.ac.th/en/",
+    "description": "A public Rajabhat university in Phuket, Thailand, with academic programmes in science and technology, education, humanities and social sciences, management sciences, and agricultural technology."
+  },
+  {
+    "id": "walailak",
+    "name": "Walailak University",
+    "shortName": "WU",
+    "city": "Tha Sala, Nakhon Si Thammarat",
+    "country": "Thailand",
+    "lat": 8.641738,
+    "lng": 99.897384,
+    "website": "https://www.wu.ac.th/en/",
+    "description": "A public university located in Tha Sala, Nakhon Si Thammarat, Thailand, offering multidisciplinary education and research across science and technology, health, business, humanities and other fields."
   }
 ]
