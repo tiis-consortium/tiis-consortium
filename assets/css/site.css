@@ -397,7 +397,7 @@ body{font-family:Inter,Arial,sans-serif;color:var(--tiis-ink);background:#fff}
 .page-view:not(#page-home)>section>div{max-width:1180px}
 .page-view:not(#page-home) .tiis-eyebrow{color:#16827e}
 .page-view:not(#page-home) h1{max-width:900px;font:800 clamp(2.1rem,4vw,3.15rem)/1.12 Manrope,sans-serif;letter-spacing:-.04em}
-.page-view:not(#page-home) h2{color:#1b3e60}
+.page-view:not(#page-home) h2{color:#eee}
 .page-view:not(#page-home) article.rounded-2xl,
 .page-view:not(#page-home) article.rounded-xl{border-radius:2px!important;box-shadow:none!important;border-color:#dce5ec}
 .page-view:not(#page-home) article.bg-surface{background:#f4f7fa}
