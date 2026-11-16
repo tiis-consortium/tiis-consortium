@@ -470,3 +470,53 @@ body.tiis-search-open{overflow:hidden}
 .tiis-home-main .tiis-content-width{width:calc(100% - 48px)}
 @media(max-width:850px){.tiis-home-layout{grid-template-columns:1fr;width:calc(100% - 32px);gap:1.25rem;margin-top:1rem}.tiis-upcoming-sidebar{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;padding:1rem}.tiis-upcoming-heading{grid-column:1/-1;padding-bottom:.25rem}.tiis-upcoming-card{margin-top:0}.tiis-home-main .tiis-home-hero-inner,.tiis-home-main .tiis-content-width{width:calc(100% - 32px)}}
 @media(max-width:520px){.tiis-upcoming-sidebar{grid-template-columns:1fr}.tiis-upcoming-heading{grid-column:auto}.tiis-home-layout{width:calc(100% - 24px)}.tiis-home-main .tiis-home-hero-inner,.tiis-home-main .tiis-content-width{width:calc(100% - 24px)}}
+
+
+/* Refined compact homepage: a quiet events rail beside a focused introduction. */
+.tiis-home-layout{grid-template-columns:minmax(225px,255px) minmax(0,1fr);gap:clamp(1.25rem,2.5vw,2rem);width:min(1320px,calc(100% - 48px));margin:1.25rem auto 2.5rem}
+.tiis-upcoming-sidebar{position:sticky;top:1.25rem;padding:1rem;border-radius:10px;background:#f7f9fb}
+.tiis-upcoming-heading h2{font-size:1.08rem}
+.tiis-upcoming-card{padding:.9rem;border-radius:8px}
+.tiis-upcoming-card h3{font-size:1.05rem}
+.tiis-upcoming-name{font-size:.75rem;line-height:1.5}
+.tiis-home-main{min-width:0}
+.tiis-home-main .tiis-home-hero{border-radius:0;margin:0}
+.tiis-home-main .tiis-home-hero-inner{display:block;width:calc(100% - 56px);min-height:0;padding:clamp(2.25rem,5vw,4rem) 0}
+.tiis-home-hero-compact .tiis-home-copy{max-width:760px}
+.tiis-home-hero-compact .tiis-home-copy h1{max-width:740px;font-size:clamp(2rem,3.6vw,3.25rem);line-height:1.12}
+.tiis-home-hero-compact .tiis-home-lead{max-width:640px;font-size:1rem;line-height:1.7}
+.tiis-home-hero-compact .tiis-home-chair{margin-top:1.5rem}
+.tiis-home-main .tiis-home-hero-compact .tiis-hero-visual,.tiis-home-main .tiis-home-hero-compact .tiis-hero-bottom{display:none}
+.tiis-home-intro-compact{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:2rem;padding:2.5rem 0}
+.tiis-home-main .tiis-home-intro-compact{width:calc(100% - 56px)}
+.tiis-home-intro-compact .tiis-section-heading h2{font-size:clamp(1.4rem,2.3vw,1.9rem);line-height:1.25}
+.tiis-home-intro-compact .tiis-intro-copy{padding-top:.2rem;font-size:.88rem;line-height:1.75}
+.tiis-home-intro-compact .tiis-intro-copy p+p{margin-top:.8rem}
+.tiis-home-intro-actions{margin-top:.8rem}
+.tiis-home-intro-actions .tiis-button-primary{background:#174c7b;color:#fff}
+.tiis-home-intro-actions .tiis-button-outline{border-color:#b8c8d6;color:#174c7b}
+.tiis-home-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:0 28px 2.5rem;border-top:1px solid #dce5ec;border-bottom:1px solid #dce5ec}
+.tiis-home-values article{padding:1.25rem;border-right:1px solid #dce5ec}
+.tiis-home-values article:first-child{padding-left:0}
+.tiis-home-values article:last-child{border-right:0}
+.tiis-home-values article>span{color:#16827e;font-size:.68rem;font-weight:800;letter-spacing:.12em}
+.tiis-home-values h3{margin-top:.65rem;color:#1b3e60;font:800 .9rem/1.35 Manrope,sans-serif}
+.tiis-home-values p{margin-top:.4rem;color:#60758a;font-size:.75rem;line-height:1.6}
+@media(max-width:850px){
+ .tiis-home-layout{grid-template-columns:1fr;width:calc(100% - 32px);gap:1rem;margin-top:1rem}
+ .tiis-upcoming-sidebar{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem}
+ .tiis-upcoming-heading{grid-column:1/-1}
+ .tiis-upcoming-card{margin-top:0}
+ .tiis-home-main .tiis-home-hero-inner,.tiis-home-main .tiis-home-intro-compact{width:calc(100% - 32px)}
+ .tiis-home-values{margin-inline:16px}
+}
+@media(max-width:560px){
+ .tiis-upcoming-sidebar{grid-template-columns:1fr}
+ .tiis-upcoming-heading{grid-column:auto}
+ .tiis-home-layout{width:calc(100% - 24px)}
+ .tiis-home-main .tiis-home-hero-inner,.tiis-home-main .tiis-home-intro-compact{width:calc(100% - 24px)}
+ .tiis-home-intro-compact{grid-template-columns:1fr;gap:1rem;padding:2rem 0}
+ .tiis-home-values{grid-template-columns:1fr;margin-inline:12px}
+ .tiis-home-values article,.tiis-home-values article:first-child{padding:1rem 0;border-right:0;border-bottom:1px solid #dce5ec}
+ .tiis-home-values article:last-child{border-bottom:0}
+}
