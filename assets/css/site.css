@@ -545,3 +545,29 @@ body.tiis-search-open{overflow:hidden}
 @media(max-width:850px){.tiis-home-roadmap{margin-inline:16px}}
 @media(max-width:560px){.tiis-home-roadmap{margin-inline:12px;padding-top:1.8rem}.tiis-roadmap-track{min-width:960px;grid-template-columns:repeat(5,minmax(180px,1fr))}.tiis-roadmap-card{min-height:160px}.tiis-roadmap-hint{font-size:.62rem}}
 @media(prefers-reduced-motion:reduce){.tiis-roadmap-card{transition:none}}
+
+
+/* TIIS roadmap: proposal-aligned Gantt chart. */
+.tiis-gantt-roadmap{margin:0 28px 3rem;padding:2.2rem 0 1.4rem;border-top:1px solid #dce5ec}
+.tiis-gantt-roadmap .tiis-roadmap-heading h2{max-width:none;font-size:clamp(1.55rem,3.4vw,2.7rem)}
+.tiis-gantt-scroll{margin-top:1.7rem;overflow-x:auto;overscroll-behavior-x:contain;padding:0 0 .5rem;scrollbar-width:thin;scrollbar-color:#9bb4c8 #edf2f6}
+.tiis-gantt-scroll:focus-visible{outline:3px solid #1D4F87;outline-offset:3px}
+.tiis-gantt{min-width:850px;color:#1c2d40}
+.tiis-gantt-years,.tiis-gantt-row{display:grid;grid-template-columns: minmax(185px,1.15fr) repeat(5,minmax(105px,1fr));column-gap:0;align-items:center}
+.tiis-gantt-years{margin-bottom:.85rem}
+.tiis-gantt-years strong{padding:.05rem .65rem;border-left:2px solid #d5e0dc;color:#1c2d40;font:800 1rem/1.3 Manrope,sans-serif}
+.tiis-gantt-row{min-height:3.9rem}
+.tiis-gantt-label{padding:.5rem .8rem .5rem 0;color:#1c2d40;font:800 .92rem/1.3 Manrope,sans-serif;white-space:nowrap}
+.tiis-gantt-lane{grid-column:2 / 7;display:grid;grid-template-columns:repeat(5,minmax(105px,1fr));align-items:center;min-width:0;min-height:3.3rem;position:relative}
+.tiis-gantt-bar{display:flex;align-items:center;min-height:2.15rem;padding:.45rem .7rem;border-radius:5px;color:#1c2d40;font-size:.78rem;line-height:1.35;white-space:normal;z-index:1}
+.tiis-gantt-pre{background:#d9e5e2}
+.tiis-gantt-init{justify-self:start;width:42%;min-width:1.9rem;height:2.65rem;background:#9fb5ca;color:transparent}
+.tiis-gantt-found{justify-self:start;width:42%;min-width:1.9rem;height:2.65rem;background:#68cdbd;color:transparent}
+.tiis-gantt-build{justify-self:start;width:78%;min-width:2.4rem;height:2.65rem;background:#168477;color:transparent}
+.tiis-gantt-scale{grid-column:4 / 6;min-height:2.65rem;background:#efa638}
+.tiis-gantt-events{min-height:3.2rem;margin-top:.15rem}
+.tiis-gantt-events .tiis-gantt-lane{min-height:3.2rem}
+.tiis-gantt-diamond{width:1rem;height:1rem;justify-self:center;transform:rotate(45deg);background:#efa638}
+.tiis-gantt-note{margin-top:1.4rem;color:#536477;font-size:.82rem;line-height:1.65}
+@media(max-width:850px){.tiis-gantt-roadmap{margin-inline:16px}}
+@media(max-width:560px){.tiis-gantt-roadmap{margin-inline:12px;padding-top:1.8rem}.tiis-gantt{min-width:790px}.tiis-gantt-years,.tiis-gantt-row{grid-template-columns:minmax(155px,1.05fr) repeat(5,minmax(100px,1fr))}.tiis-gantt-label{font-size:.82rem}.tiis-gantt-bar{font-size:.72rem}}
