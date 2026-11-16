@@ -561,9 +561,9 @@ body.tiis-search-open{overflow:hidden}
 .tiis-gantt-lane{grid-column:2 / 7;display:grid;grid-template-columns:repeat(5,minmax(105px,1fr));align-items:center;min-width:0;min-height:3.3rem;position:relative}
 .tiis-gantt-bar{display:flex;align-items:center;min-height:2.15rem;padding:.45rem .7rem;border-radius:5px;color:#1c2d40;font-size:.78rem;line-height:1.35;white-space:normal;z-index:1}
 .tiis-gantt-pre{background:#d9e5e2}
-.tiis-gantt-init{justify-self:start;width:42%;min-width:1.9rem;height:2.65rem;background:#9fb5ca;color:transparent}
-.tiis-gantt-found{justify-self:start;width:42%;min-width:1.9rem;height:2.65rem;background:#68cdbd;color:transparent}
-.tiis-gantt-build{justify-self:start;width:78%;min-width:2.4rem;height:2.65rem;background:#168477;color:transparent}
+.tiis-gantt-activity{display:flex;align-items:center;gap:.55rem;min-width:0;z-index:1}.tiis-gantt-activity>span{color:#536477;font-size:.78rem;line-height:1.4;white-space:nowrap}.tiis-gantt-init-activity{justify-self:end;flex-direction:row-reverse}.tiis-gantt-init{flex:0 0 2.8rem;width:2.8rem;height:2.65rem;background:#9fb5ca;padding:0}
+.tiis-gantt-found{flex:0 0 3.2rem;width:3.2rem;height:2.65rem;background:#68cdbd;padding:0}
+.tiis-gantt-build{flex:0 0 7rem;width:7rem;height:2.65rem;background:#168477;padding:0}
 .tiis-gantt-scale{grid-column:4 / 6;min-height:2.65rem;background:#efa638}
 .tiis-gantt-events{min-height:3.2rem;margin-top:.15rem}
 .tiis-gantt-events .tiis-gantt-lane{min-height:3.2rem}
