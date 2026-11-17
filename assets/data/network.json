@@ -1,5 +1,16 @@
 [
   {
+    "id": "agh-krakow",
+    "name": "AGH University of Krakow",
+    "shortName": "AGH",
+    "city": "Krakow",
+    "country": "Poland",
+    "lat": 50.0654,
+    "lng": 19.9232,
+    "website": "https://www.agh.edu.pl/en/",
+    "description": ""
+  },
+  {
     "id": "basque-country",
     "name": "University of the Basque Country",
     "shortName": "UPV/EHU",
@@ -8,7 +19,7 @@
     "lat": 43.3312,
     "lng": -2.9719,
     "website": "https://www.ehu.eus/en/",
-    "description": "A public multi-campus university serving the Basque Country, with academic and research activity across Biscay, Gipuzkoa and Álava."
+    "description": ""
   },
   {
     "id": "kasetsart",
@@ -19,29 +30,7 @@
     "lat": 13.8471,
     "lng": 100.5719,
     "website": "https://www.ku.ac.th/en/",
-    "description": "A major public research university in Thailand, with a broad academic portfolio and strengths in agriculture, science, engineering, technology and innovation."
-  },
-  {
-    "id": "paragon-international",
-    "name": "Paragon International University",
-    "shortName": "Paragon IU",
-    "city": "Phnom Penh",
-    "country": "Cambodia",
-    "lat": 11.5825,
-    "lng": 104.8982,
-    "website": "https://www.paragoniu.edu.kh/",
-    "description": "A private, English-medium university in Phnom Penh offering internationally oriented programmes, including engineering, information technology, business and related fields."
-  },
-  {
-    "id": "ulco",
-    "name": "University of the Littoral Opal Coast",
-    "shortName": "ULCO",
-    "city": "Dunkirk",
-    "country": "France",
-    "lat": 51.0394,
-    "lng": 2.377,
-    "website": "https://www.univ-littoral.fr/en/",
-    "description": "A French public university based along the Opal Coast, with campuses in Dunkirk, Calais, Boulogne-sur-Mer and Saint-Omer."
+    "description": ""
   },
   {
     "id": "kiit",
@@ -52,62 +41,18 @@
     "lat": 20.354,
     "lng": 85.8188,
     "website": "https://kiit.ac.in/",
-    "description": "Kalinga Institute of Industrial Technology is a deemed-to-be university in Bhubaneswar, with programmes and research across engineering, computing, science, management and other disciplines."
+    "description": ""
   },
   {
-    "id": "vsb-tuo",
-    "name": "VSB–Technical University of Ostrava",
-    "shortName": "VSB-TUO",
-    "city": "Ostrava",
-    "country": "Czech Republic",
-    "lat": 49.835,
-    "lng": 18.1619,
-    "website": "https://www.vsb.cz/en/",
-    "description": "A public technical university in Ostrava with a strong focus on engineering, information technology, economics, materials, energy and applied research."
-  },
-  {
-    "id": "university-hail",
-    "name": "University of Ha'il",
-    "shortName": "UOH",
-    "city": "Ha'il",
+    "id": "king-khalid",
+    "name": "King Khalid University",
+    "shortName": "KKU",
+    "city": "Abha",
     "country": "Saudi Arabia",
-    "lat": 27.5236,
-    "lng": 41.6966,
-    "website": "https://www.uoh.edu.sa/en",
-    "description": "A public university in Ha'il, Saudi Arabia, offering academic programmes and research across science, engineering, health, humanities and other fields."
-  },
-  {
-    "id": "xian-finance-economics",
-    "name": "Xi’an University of Finance and Economics",
-    "shortName": "XUFE",
-    "city": "Xi’an",
-    "country": "China",
-    "lat": 34.155,
-    "lng": 108.906,
-    "website": "https://www.xaufe.edu.cn/",
-    "description": "A university in Xi’an specialising in economics and management, with related programmes in statistics, information technology, law and other disciplines."
-  },
-  {
-    "id": "wsu-prosser",
-    "name": "Washington State University",
-    "shortName": "WSU Prosser",
-    "city": "Prosser, Washington",
-    "country": "USA",
-    "lat": 46.25,
-    "lng": -119.765,
-    "website": "https://iarec.wsu.edu/",
-    "description": "The Prosser location is Washington State University’s Irrigated Agriculture Research and Extension Center (IAREC), supporting research and extension in agriculture and related sciences."
-  },
-  {
-    "id": "sastra",
-    "name": "SASTRA Deemed University",
-    "shortName": "SASTRA",
-    "city": "Thanjavur",
-    "country": "India",
-    "lat": 10.723,
-    "lng": 79.02,
-    "website": "https://www.sastra.edu/",
-    "description": "A deemed-to-be university at Tirumalaisamudram near Thanjavur, with programmes and research in engineering, science, humanities, management, law and other areas."
+    "lat": 18.2465,
+    "lng": 42.5566,
+    "website": "https://www.kku.edu.sa/en",
+    "description": ""
   },
   {
     "id": "lebanese-university",
@@ -118,62 +63,7 @@
     "lat": 33.833,
     "lng": 35.517,
     "website": "https://www.ul.edu.lb/",
-    "description": "Lebanon’s public national university, with faculties, institutes and branches distributed across the country."
-  },
-  {
-    "id": "uphf",
-    "name": "Université Polytechnique Hauts-de-France",
-    "shortName": "UPHF",
-    "city": "Valenciennes",
-    "country": "France",
-    "lat": 50.318,
-    "lng": 3.506,
-    "website": "https://www.uphf.fr/en",
-    "description": "A public university in the Hauts-de-France region, with its principal Mont Houy campus in the Valenciennes area and additional campuses across the region."
-  },
-  {
-    "id": "uc-davis",
-    "name": "University of California, Davis",
-    "shortName": "UC Davis",
-    "city": "Davis, California",
-    "country": "USA",
-    "lat": 38.5382,
-    "lng": -121.7617,
-    "website": "https://www.ucdavis.edu/",
-    "description": "A public research university in California, recognised for research and education spanning agriculture, biological and environmental sciences, engineering, medicine and more."
-  },
-  {
-    "id": "laquila",
-    "name": "University of L’Aquila",
-    "shortName": "UniAQ",
-    "city": "L’Aquila",
-    "country": "Italy",
-    "lat": 42.357,
-    "lng": 13.35,
-    "website": "https://www.univaq.it/en/",
-    "description": "A public university in central Italy with academic and research activity across engineering, information technology, sciences, medicine, humanities and economics."
-  },
-  {
-    "id": "usst",
-    "name": "University of Shanghai for Science and Technology",
-    "shortName": "USST",
-    "city": "Shanghai",
-    "country": "China",
-    "lat": 31.285,
-    "lng": 121.548,
-    "website": "https://www.usst.edu.cn/",
-    "description": "A public university in Shanghai with strengths in engineering, materials science, computer science, management, health-related technologies and applied research."
-  },
-  {
-    "id": "thi-qar",
-    "name": "University of Thi Qar",
-    "shortName": "UTQ",
-    "city": "Nasiriyah",
-    "country": "Iraq",
-    "lat": 31.058,
-    "lng": 46.257,
-    "website": "https://utq.edu.iq/",
-    "description": "A public university in Nasiriyah, Iraq, with colleges and research activity across engineering, science, education, medicine, humanities and other disciplines."
+    "description": ""
   },
   {
     "id": "madan-bhandari",
@@ -184,40 +74,7 @@
     "lat": 27.62,
     "lng": 85.18,
     "website": "https://mbust.edu.np/",
-    "description": "A research-oriented university initiative in Nepal, established to advance science, technology, innovation and higher education."
-  },
-  {
-    "id": "eastern-finland",
-    "name": "University of Eastern Finland",
-    "shortName": "UEF",
-    "city": "Joensuu",
-    "country": "Finland",
-    "lat": 62.601,
-    "lng": 29.763,
-    "website": "https://www.uef.fi/en",
-    "description": "A multidisciplinary public university with campuses in Joensuu and Kuopio, and research and education across sciences, health, environment, business and social sciences."
-  },
-  {
-    "id": "ustp",
-    "name": "University of Science and Technology of Southern Philippines",
-    "shortName": "USTP",
-    "city": "Cagayan de Oro",
-    "country": "Philippines",
-    "lat": 8.485,
-    "lng": 124.656,
-    "website": "https://www.ustp.edu.ph/",
-    "description": "A public university system in Northern Mindanao, with its main campus in Cagayan de Oro and a focus on science, technology, engineering and related fields."
-  },
-  {
-    "id": "zitacuaro-tech",
-    "name": "Zitácuaro Institute of Technology",
-    "shortName": "IT Zitácuaro",
-    "city": "Zitácuaro, Michoacán",
-    "country": "Mexico",
-    "lat": 19.432,
-    "lng": -100.356,
-    "website": "https://portal.itzitacuaro.edu.mx/",
-    "description": "A public technological higher-education institution in Zitácuaro, Michoacán, affiliated with Mexico’s Tecnológico Nacional de México system."
+    "description": ""
   },
   {
     "id": "must",
@@ -228,7 +85,18 @@
     "lat": 47.922,
     "lng": 106.916,
     "website": "https://must.edu.mn/en/",
-    "description": "A major public technical university in Ulaanbaatar, with schools and research activity in engineering, information and communication technology, applied sciences, management and related fields."
+    "description": ""
+  },
+  {
+    "id": "paragon-international",
+    "name": "Paragon International University",
+    "shortName": "Paragon IU",
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "lat": 11.5825,
+    "lng": 104.8982,
+    "website": "https://www.paragoniu.edu.kh/",
+    "description": ""
   },
   {
     "id": "phuket-rajabhat",
@@ -239,7 +107,150 @@
     "lat": 7.9127,
     "lng": 98.3859,
     "website": "https://www.pkru.ac.th/en/",
-    "description": "A public Rajabhat university in Phuket, Thailand, with academic programmes in science and technology, education, humanities and social sciences, management sciences, and agricultural technology."
+    "description": ""
+  },
+  {
+    "id": "sastra",
+    "name": "SASTRA Deemed University",
+    "shortName": "SASTRA",
+    "city": "Thanjavur",
+    "country": "India",
+    "lat": 10.723,
+    "lng": 79.02,
+    "website": "https://www.sastra.edu/",
+    "description": ""
+  },
+  {
+    "id": "singapore-utd",
+    "name": "Singapore University of Technology and Design",
+    "shortName": "SUTD",
+    "city": "Singapore",
+    "country": "Singapore",
+    "lat": 1.3414,
+    "lng": 103.9637,
+    "website": "https://www.sutd.edu.sg/",
+    "description": ""
+  },
+  {
+    "id": "usm",
+    "name": "Universiti Sains Malaysia",
+    "shortName": "USM",
+    "city": "George Town, Penang",
+    "country": "Malaysia",
+    "lat": 5.356,
+    "lng": 100.302,
+    "website": "https://www.usm.my/",
+    "description": ""
+  },
+  {
+    "id": "uphf",
+    "name": "Université Polytechnique Hauts-de-France",
+    "shortName": "UPHF",
+    "city": "Valenciennes",
+    "country": "France",
+    "lat": 50.318,
+    "lng": 3.506,
+    "website": "https://www.uphf.fr/en",
+    "description": ""
+  },
+  {
+    "id": "ulco",
+    "name": "University of the Littoral Opal Coast",
+    "shortName": "ULCO",
+    "city": "Dunkirk",
+    "country": "France",
+    "lat": 51.0394,
+    "lng": 2.377,
+    "website": "https://www.univ-littoral.fr/en/",
+    "description": ""
+  },
+  {
+    "id": "laquila",
+    "name": "University of L’Aquila",
+    "shortName": "UniAQ",
+    "city": "L’Aquila",
+    "country": "Italy",
+    "lat": 42.357,
+    "lng": 13.35,
+    "website": "https://www.univaq.it/en/",
+    "description": ""
+  },
+  {
+    "id": "uc-davis",
+    "name": "University of California, Davis",
+    "shortName": "UC Davis",
+    "city": "Davis, California",
+    "country": "USA",
+    "lat": 38.5382,
+    "lng": -121.7617,
+    "website": "https://www.ucdavis.edu/",
+    "description": ""
+  },
+  {
+    "id": "eastern-finland",
+    "name": "University of Eastern Finland",
+    "shortName": "UEF",
+    "city": "Joensuu",
+    "country": "Finland",
+    "lat": 62.601,
+    "lng": 29.763,
+    "website": "https://www.uef.fi/en",
+    "description": ""
+  },
+  {
+    "id": "university-hail",
+    "name": "University of Ha'il",
+    "shortName": "UOH",
+    "city": "Ha'il",
+    "country": "Saudi Arabia",
+    "lat": 27.5236,
+    "lng": 41.6966,
+    "website": "https://www.uoh.edu.sa/en",
+    "description": ""
+  },
+  {
+    "id": "thi-qar",
+    "name": "University of Thi Qar",
+    "shortName": "UTQ",
+    "city": "Nasiriyah",
+    "country": "Iraq",
+    "lat": 31.058,
+    "lng": 46.257,
+    "website": "https://utq.edu.iq/",
+    "description": ""
+  },
+  {
+    "id": "usst",
+    "name": "University of Shanghai for Science and Technology",
+    "shortName": "USST",
+    "city": "Shanghai",
+    "country": "China",
+    "lat": 31.285,
+    "lng": 121.548,
+    "website": "https://www.usst.edu.cn/",
+    "description": ""
+  },
+  {
+    "id": "ustp",
+    "name": "University of Science and Technology of Southern Philippines",
+    "shortName": "USTP",
+    "city": "Cagayan de Oro",
+    "country": "Philippines",
+    "lat": 8.485,
+    "lng": 124.656,
+    "website": "https://www.ustp.edu.ph/",
+    "description": ""
+  },
+  {
+    "id": "vsb-tuo",
+    "name": "VSB–Technical University of Ostrava",
+    "shortName": "VSB-TUO",
+    "city": "Ostrava",
+    "country": "Czech Republic",
+    "lat": 49.835,
+    "lng": 18.1619,
+    "website": "https://www.vsb.cz/en/",
+    "description": ""
   },
   {
     "id": "walailak",
@@ -250,6 +261,39 @@
     "lat": 8.641738,
     "lng": 99.897384,
     "website": "https://www.wu.ac.th/en/",
-    "description": "A public university located in Tha Sala, Nakhon Si Thammarat, Thailand, offering multidisciplinary education and research across science and technology, health, business, humanities and other fields."
+    "description": ""
+  },
+  {
+    "id": "wsu-prosser",
+    "name": "Washington State University",
+    "shortName": "WSU Prosser",
+    "city": "Prosser, Washington",
+    "country": "USA",
+    "lat": 46.25,
+    "lng": -119.765,
+    "website": "https://iarec.wsu.edu/",
+    "description": ""
+  },
+  {
+    "id": "xian-finance-economics",
+    "name": "Xi’an University of Finance and Economics",
+    "shortName": "XUFE",
+    "city": "Xi’an",
+    "country": "China",
+    "lat": 34.155,
+    "lng": 108.906,
+    "website": "https://www.xaufe.edu.cn/",
+    "description": ""
+  },
+  {
+    "id": "zitacuaro-tech",
+    "name": "Zitácuaro Institute of Technology",
+    "shortName": "IT Zitácuaro",
+    "city": "Zitácuaro, Michoacán",
+    "country": "Mexico",
+    "lat": 19.432,
+    "lng": -100.356,
+    "website": "https://portal.itzitacuaro.edu.mx/",
+    "description": ""
   }
 ]
