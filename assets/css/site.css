@@ -571,3 +571,10 @@ body.tiis-search-open{overflow:hidden}
 .tiis-gantt-note{margin-top:1.4rem;color:#536477;font-size:.82rem;line-height:1.65}
 @media(max-width:850px){.tiis-gantt-roadmap{margin-inline:16px}}
 @media(max-width:560px){.tiis-gantt-roadmap{margin-inline:12px;padding-top:1.8rem}.tiis-gantt{min-width:790px}.tiis-gantt-years,.tiis-gantt-row{grid-template-columns:minmax(155px,1.05fr) repeat(5,minmax(100px,1fr))}.tiis-gantt-label{font-size:.82rem}.tiis-gantt-bar{font-size:.72rem}}
+
+
+/* Paired primary actions in the network institution profile */
+.network-action-row{display:flex;gap:.55rem;margin-top:1.15rem;width:100%}
+.network-action-button{display:inline-flex;flex:1 1 0;min-width:0;min-height:40px;align-items:center;justify-content:center;gap:.35rem;padding:.55rem .65rem;border:1px solid #DCE5EE;border-radius:9px;background:#fff;color:#234A70;text-align:center;text-decoration:none;font-size:.74rem;font-weight:700;line-height:1.25}
+.network-action-button:hover{border-color:#9CB4CA;background:#F4F8FB;color:#173F69}
+.network-action-button span{flex:none}
