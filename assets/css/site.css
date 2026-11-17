@@ -578,3 +578,12 @@ body.tiis-search-open{overflow:hidden}
 .network-action-button{display:inline-flex;flex:1 1 0;min-width:0;min-height:40px;align-items:center;justify-content:center;gap:.35rem;padding:.55rem .65rem;border:1px solid #DCE5EE;border-radius:9px;background:#fff;color:#234A70;text-align:center;text-decoration:none;font-size:.74rem;font-weight:700;line-height:1.25}
 .network-action-button:hover{border-color:#9CB4CA;background:#F4F8FB;color:#173F69}
 .network-action-button span{flex:none}
+
+
+/* Compact visitor counter in the footer. */
+.tiis-footer-counter{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:1.15rem 0;border-top:1px solid rgba(203,216,227,.22);border-bottom:1px solid rgba(203,216,227,.22)}
+.tiis-footer-counter-copy span{display:block;color:#9edbd6;font-size:.66rem;font-weight:800;letter-spacing:.13em}
+.tiis-footer-counter-copy p{margin-top:.25rem;color:#c3cfda;font-size:.75rem}
+.tiis-footer-counter>a{display:block;flex:none;line-height:0;background:#fff;padding:4px;border-radius:3px}
+.tiis-footer-counter img{display:block;width:auto;max-width:100%;height:auto}
+@media(max-width:640px){.tiis-footer-counter{align-items:flex-start;flex-direction:column;gap:.8rem;padding:1rem 0}.tiis-footer-counter img{max-width:min(100%,260px)}}
