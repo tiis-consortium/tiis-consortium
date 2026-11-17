@@ -11,17 +11,6 @@
     "description": ""
   },
   {
-    "id": "basque-country",
-    "name": "University of the Basque Country",
-    "shortName": "UPV/EHU",
-    "city": "Leioa",
-    "country": "Spain",
-    "lat": 43.3312,
-    "lng": -2.9719,
-    "website": "https://www.ehu.eus/en/",
-    "description": ""
-  },
-  {
     "id": "kasetsart",
     "name": "Kasetsart University",
     "shortName": "Kasetsart",
@@ -151,6 +140,17 @@
     "lat": 50.318,
     "lng": 3.506,
     "website": "https://www.uphf.fr/en",
+    "description": ""
+  },
+  {
+    "id": "basque-country",
+    "name": "University of the Basque Country",
+    "shortName": "UPV/EHU",
+    "city": "Leioa",
+    "country": "Spain",
+    "lat": 43.3312,
+    "lng": -2.9719,
+    "website": "https://www.ehu.eus/en/",
     "description": ""
   },
   {
